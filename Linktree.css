@@ -1,0 +1,34 @@
+/* style.css*/
+body {
+    background-color: rgb(105, 83, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    background-color: beige;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(69, 57, 128),
+        -5px -5px -15px rgb(73, 56, 135);
+    border: 1px solid rgb(75, 58, 117);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    display: block;
+    margin: 0 auto 15px;
+    border: 3px solid rgb(73, 58, 136);
+    box-shadow: 0 2px 5px rgb(70, 53, 134);
+}
+
+img:hover {
+    transform: scale(1.1);
+}
