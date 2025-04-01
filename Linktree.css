@@ -32,3 +32,9 @@ img {
 img:hover {
     transform: scale(1.1);
 }
+
+/* Estilo para pantallas pequeñas (móviles)*/
+@media sceen and (max-width: 400px) {
+    body {
+        font-size: 13px;
+    }
